@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+   <center>
+   <div class="container">
+      <textarea id="input" cols="30" rows="1" dir="rtl" readonly></textarea>
+      <div id="div1">
+        <button onclick="show('c')">C</button><button onclick="show(0)">0</button><button onclick="show('/')">/</button><button onclick="show('*')">*</button>
+      </div>
+      <div>
+        <button  onclick="show(1)">1</button><button onclick="show(2)">2</button><button onclick="show(3)" >3</button><button onclick="show('+')" >+</button>
+      </div>
+      <div>
+         <button  onclick="show(4)">4</button><button onclick="show(5)">5</button><button onclick="show(6)">6</button><button onclick="show('-')" >-</button>
+      </div>   
+      <div>
+         <button  onclick="show(7)">7</button><button onclick="show(8)">8</button><button onclick="show(9)">9</button><button style="background-color: orange;" onclick="result()">=</button>
+      </div> 
+   </div>
+   
+</center>
+     <script src="script.js"></script>
+</body>
+</html>
