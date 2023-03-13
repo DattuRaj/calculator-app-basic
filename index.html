@@ -11,17 +11,17 @@
 <body>
    <center>
    <div class="container">
-      <textarea id="input" cols="30" rows="1" dir="rtl" readonly></textarea>
-      <div id="div1">
-        <button onclick="show('c')">C</button><button onclick="show(0)">0</button><button onclick="show('/')">/</button><button onclick="show('*')">*</button>
+      <textarea id="input" cols="30" rows="1" dir="rtl" disabled></textarea>
+      <div id="div1" style="line-height: 5px;">
+        <button style="background-color: rgb(235, 128, 101);" onclick="show('c')">C</button><button onclick="show(0)">0</button><button onclick="show('/')">/</button><button onclick="show('*')">*</button>
       </div>
-      <div>
+      <div style="line-height: 5px;">
         <button  onclick="show(1)">1</button><button onclick="show(2)">2</button><button onclick="show(3)" >3</button><button onclick="show('+')" >+</button>
       </div>
-      <div>
+      <div style="line-height: 5px;">
          <button  onclick="show(4)">4</button><button onclick="show(5)">5</button><button onclick="show(6)">6</button><button onclick="show('-')" >-</button>
       </div>   
-      <div>
+      <div style="line-height: 5px;">
          <button  onclick="show(7)">7</button><button onclick="show(8)">8</button><button onclick="show(9)">9</button><button style="background-color: orange;" onclick="result()">=</button>
       </div> 
    </div>
