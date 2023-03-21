@@ -51,12 +51,15 @@ function result()
     }
     if(sym=='-')
     {    
-        if((data[0]-kdata)<0)
+        if(data[0]<kdata)
         {
             document.getElementById('input').innerHTML=`${-(data[0]-kdata)} - = ${kdata} - ${data[0]}`    
         }
+       else
+       {
         document.getElementById('input').innerHTML=`${data[0]-kdata} = ${kdata} - ${data[0]}`
         sym=''
+       }
     }
     if(sym=='*')
     { 
